@@ -1,0 +1,272 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"number",
+				"numberCopy2"
+			],
+			[
+				"test",
+				"testHappiness"
+			],
+			[
+				"sq",
+				"squaredArray"
+			],
+			[
+				"user",
+				"userArray"
+			],
+			[
+				"squ",
+				"squareTheArray"
+			],
+			[
+				"u",
+				"uniqueNumbersArray"
+			],
+			[
+				"sum",
+				"sumCopy"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"unique",
+				"uniqueNumbersArray"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/erica/Documents/devCodeCamp/week_01/Misc Examples/javascript review/happyNumbersExample.js",
+		"/C/Users/erica/Documents/devCodeCamp/week_01/Misc Examples/javascript review/happyNumbersExample.html",
+		"/C/Users/erica/Documents/devCodeCamp/week_01/Misc Examples/javascript review/happyNumbersExample.jss",
+		"/C/Users/erica/Documents/devCodeCamp/week_02/Projects/diceGame/styles.css",
+		"/C/Users/erica/Documents/devCodeCamp/week_02/Projects/diceGame/diceGameScrappedFunctionalCode.js",
+		"/C/Users/erica/Documents/devCodeCamp/week_02/Projects/diceGame/diceGame.html",
+		"/C/Users/erica/Documents/devCodeCamp/week_02/Projects/diceGame/diceGame.js",
+		"/C/Users/erica/Documents/devCodeCamp/week_01/Projects/day1Project/styles.css",
+		"/C/Users/erica/Documents/devCodeCamp/week_01/Projects/day1Project/projectTwo.html",
+		"/C/Users/erica/Documents/devCodeCamp/week_01/CodeDemo/FunctionsWarmUp/Third Problem Set/happyNumbers.js",
+		"/C/Users/erica/Desktop/devCodeCamp/week_02/Projects/diceGame/diceGame.js",
+		"/C/Users/erica/Desktop/devCodeCamp/week_02/Projects/diceGame/diceGame.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/FunctionsWarmUp/secondProblems.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/FunctionsWarmUp/Third Problem Set/fibSeq.js",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/FunctionsWarmUp/Third Problem Set/primeNumbers.js",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/FunctionsWarmUp/Third Problem Set/primeNumbers.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/Javascript example/friExample.js",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/FunctionsWarmUp/Third Problem Set/fibSeq.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/Javascript example/friExample.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/FunctionsWarmUp/secondProblems.js",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/FunctionsWarmUp/Third Problem Set/copies/happyNumberscopy.js",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/FunctionsWarmUp/Third Problem Set/copies/javascriptFunTimescopy.js",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/FunctionsWarmUp/Third Problem Set/copies/secondProblemscopy.js",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/FunctionsWarmUp/002_WarmupProblems.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/FunctionsWarmUp/Third Problem Set/happyNumbers.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/FunctionsWarmUp/Third Problem Set/copies/happyNumberscopy.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/FunctionsWarmUp/002_WarmupProblems.js",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/javascript/javascriptFunTimes.js",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/FunctionsWarmUp/Third Problem Set/copies/secondProblems.js",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/FunctionsWarmUp/Third Problem Set/copies/happyNumbers.js",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/FunctionsWarmUp/thirdProblems.js",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/FunctionsWarmUp/thirdProblems.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/FunctionsWarmUp/FunctionsWarmUp/002_WarmupProblems.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/FunctionsWarmUp/FunctionsWarmUp/002_WarmupProblems.js",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/javascript/calcEx.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/Projects/day1Project/aboutMe.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/Projects/day1Project/contact.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/Projects/day1Project/dayOneProject.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/Projects/day1Project/index.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/Projects/day1Project/projectEight.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/Projects/day1Project/projectFinal.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/Projects/day1Project/projectFive.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/Projects/day1Project/projectFour.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/Projects/day1Project/projectNine.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/Projects/day1Project/projects.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/Projects/day1Project/projectSeven.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/Projects/day1Project/projectSix.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/Projects/day1Project/projectTen.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/Projects/day1Project/projectThree.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/Projects/day1Project/projectTwo.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/Projects/day1Project/sendLanding.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/overtimePayCalcEx.js",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/javascriptFunTimes.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/javascriptFunTimes.js",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/fizzBuzzEx.js",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/CodeDemo/calcEx.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/Projects/day1Project/styles.css",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/Projects/day1Project/bsTest.html",
+		"/C/Users/erica/Desktop/bsTest.html",
+		"/C/Users/erica/Desktop/placehold.html",
+		"/C/Users/erica/Desktop/devCodeCamp/week_01/Projects/day1Project/placehold.html",
+		"/C/Users/erica/Desktop/columns.html",
+		"/C/Users/erica/Desktop/test1.html",
+		"/C/Users/erica/Desktop/styles.css",
+		"/C/Users/erica/Desktop/CrewTable.html"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"(",
+			"aboutMeSelfie.jpeg"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\erica\\Desktop\\devCodeCamp\\week_01\\Projects\\day1Project\\projectSeven.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 176.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
