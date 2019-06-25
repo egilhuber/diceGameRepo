@@ -24,3 +24,41 @@ function roundOne (all) {
 	console.log("d20:" + d20);
 }
 /////////////////////////////////////////////////////////////////////////
+
+function selectDice(whichDice) {
+	if (countClicks == 0) {
+		text = "Please roll the dice to begin the game.";
+	}
+	else if (countClicks == 1) {
+		//add data from selected dice to correct cell in column r1
+		console.log("scored die:" + whichDice);
+		document.getElementById("2-7").innerHTML = whichDice;
+	}
+	else if (countClicks == 2) {
+		//add data from selected dice to correct cell in column r1
+		console.log("scored die:" + whichDice);
+		document.getElementById("3-7").innerHTML = whichDice;
+	}
+	else if (countClicks == 3) {
+		//add data from selected dice to correct cell in column r1
+		console.log("scored die:" + whichDice);
+		document.getElementById("3-7").innerHTML = whichDice;
+	}
+	else if (countClicks == 4) {
+		//add data from selected dice to correct cell in column r1
+		console.log("scored die:" + whichDice);
+		document.getElementById("4-7").innerHTML = whichDice;
+	}
+	else if (countClicks == 5) {
+		//add data from selected dice to correct cell in column r1
+		console.log("scored die:" + whichDice);
+		document.getElementById("5-7").innerHTML = whichDice;
+	}
+	else if (countClicks == 6) {
+		//add data from selected dice to correct cell in column r1
+		console.log("scored die:" + whichDice);
+		document.getElementById("6-7").innerHTML = whichDice;
+	}
+
+}
+/////////////////////////////////////////////////////////////////////////

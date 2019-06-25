@@ -57,7 +57,7 @@ function rollDice(){
     countClicks++; 
     console.log("clicks:" + " " + countClicks);
     if (countClicks == 7) {
-    	//apply bonuses
+    	calcBonuses();
     	console.log("bonuses under construction");
     }
     else if (countClicks == 8) {
@@ -71,52 +71,10 @@ function rollDice(){
     	console.log(finalRollTotal);
     	tableArr.push(finalRollTotal);
 		console.log(tableArr);
+		document.getElementById("rollBtn").disabled = true;
     }
 }
-// function selectDice(whichDice) {
-// 	if (countClicks == 0) {
-// 		text = "Please roll the dice to begin the game.";
-// 	}
-// 	else if (countClicks == 1) {
-// 		//add data from selected dice to correct cell in column r1
-// 		console.log("scored die:" + whichDice);
-// 		document.getElementById("2-7").innerHTML = whichDice;
-// 	}
-// 	else if (countClicks == 2) {
-// 		//add data from selected dice to correct cell in column r1
-// 		console.log("scored die:" + whichDice);
-// 		document.getElementById("3-7").innerHTML = whichDice;
-// 	}
-// 	else if (countClicks == 3) {
-// 		//add data from selected dice to correct cell in column r1
-// 		console.log("scored die:" + whichDice);
-// 		document.getElementById("3-7").innerHTML = whichDice;
-// 	}
-// 	else if (countClicks == 4) {
-// 		//add data from selected dice to correct cell in column r1
-// 		console.log("scored die:" + whichDice);
-// 		document.getElementById("4-7").innerHTML = whichDice;
-// 	}
-// 	else if (countClicks == 5) {
-// 		//add data from selected dice to correct cell in column r1
-// 		console.log("scored die:" + whichDice);
-// 		document.getElementById("5-7").innerHTML = whichDice;
-// 	}
-// 	else if (countClicks == 6) {
-// 		//add data from selected dice to correct cell in column r1
-// 		console.log("scored die:" + whichDice);
-// 		document.getElementById("6-7").innerHTML = whichDice;
-// 	}
-
-// }
-//dice//
-
-// function disableButton(btn) {
-// 	// document.getElementById(btn).disabled = true;
-// 	if ()
-// }
 let tableArr = [];
-
 function buttonDiceFour(rollValue) {
 	console.log("d4: " + rollValue);
 	if (countClicks == 1) {
@@ -270,24 +228,19 @@ function finishGame() {
 	let number = sumNumber + "";
 	console.log(number);
 	document.getElementById("9-7").innerHTML = number;
-	if (number > 10) {
+	if (number > 100) {
 		console.log("you win :)");
 	}
-	else if (number <= 10) {
+	else if (number <= 100) {
 		console.log("you lose :(");
 	}
 	else {
 		console.log("what happened");
 	}
 }
-
-function resetGame() {
-
-
+function calcBonuses (pointValue) {
+	pointValue = Math.floor((Math.random() * 20) + 1);
+	document.getElementById("8-6").innerHTML = pointValue;
+	tableArr.push(pointValue);
+	console.log(tableArr);
 }
-
-// To set the value of a field with an id value of xyz, you'd use:
-
-// document.getElementById('xyz').value = whatever
-
-
