@@ -44,13 +44,19 @@
 	"buffers":
 	[
 		{
-			"contents": "//let playersQty = prompt(\"how many players?\");\n\nlet quantityOfPlayers;\nfunction playerQuant() {\n  let text;\n\n  // Get the value of the input field with id=\"numb\"\n  quantityOfPlayers = document.getElementById(\"numb\").value;\n\n  // If x is Not a Number or less than one or greater than 10\n  if (isNaN(quantityOfPlayers) || quantityOfPlayers < 1 || quantityOfPlayers > 4) {\n    text = \"Gemstone Digital is best played with 1-4 players. Please enter a valid number of players.\";\n  } else {\n    text = quantityOfPlayers + \" \" + \"players\";\n    console.log(\"number of players:\" + \" \" + quantityOfPlayers);\n    //call gofirst function here\n    goFirst();\n  }\n  document.getElementById(\"demo\").innerHTML = text;\n}\n\n\n// parseInt (playersQty);\n// if (playersQty > 1) {\n// \tgoFirst();\n// }\n// else {\n// \tconsole.log(\"need more players\");\n// }\nfunction goFirst () {\n\tconsole.log(\"p1 d20 roll:\");\n\tlet p1d20 = Math.floor((Math.random() * 20) + 1);\n\tconsole.log(p1d20);\n\tconsole.log(\"p2 d20 roll:\");\n\tlet p2d20 = Math.floor((Math.random() * 20) + 1);\n\tconsole.log(p2d20);\n\tif (p1d20 > p2d20) {\n\t\tconsole.log(\"player 1 goes first\");\n\t}\n\telse {\n\t\tconsole.log(\"player 2 goes first\");\n\t}\n}\n\nfunction playRound () {\n\n\n\t\n}\n\n\n\n",
 			"file": "diceGame.js",
-			"file_size": 1222,
-			"file_write_time": 132059103219579038,
 			"settings":
 			{
-				"buffer_size": 1205,
+				"buffer_size": 7882,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "diceGame.html",
+			"settings":
+			{
+				"buffer_size": 7500,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -65,18 +71,10 @@
 			}
 		},
 		{
-			"file": "diceGame.html",
-			"settings":
-			{
-				"buffer_size": 6018,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "styles.css",
 			"settings":
 			{
-				"buffer_size": 4801,
+				"buffer_size": 5035,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -198,6 +196,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"center",
 			"(",
 			"aboutMeSelfie.jpeg"
 		],
@@ -226,15 +225,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1205,
+						"buffer_size": 7882,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1205,
-								1205
+								2328,
+								2328
 							]
 						],
 						"settings":
@@ -243,7 +242,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 770.0,
+						"translation.y": 1848.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -251,6 +250,35 @@
 				},
 				{
 					"buffer": 1,
+					"file": "diceGame.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7500,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6031,
+								6031
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2928.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "diceGameScrappedFunctionalCode.js",
 					"semi_transient": false,
 					"settings":
@@ -262,8 +290,8 @@
 						"selection":
 						[
 							[
-								209,
-								209
+								236,
+								236
 							]
 						],
 						"settings":
@@ -279,49 +307,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "diceGame.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6018,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
 					"buffer": 3,
 					"file": "styles.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4801,
+						"buffer_size": 5035,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3792,
-								3792
+								4243,
+								4243
 							]
 						],
 						"settings":
@@ -329,10 +328,10 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 4732.0,
+						"translation.y": 5082.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
