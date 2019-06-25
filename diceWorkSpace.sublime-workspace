@@ -43,6 +43,44 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "//let playersQty = prompt(\"how many players?\");\n\nlet quantityOfPlayers;\nfunction playerQuant() {\n  let text;\n\n  // Get the value of the input field with id=\"numb\"\n  quantityOfPlayers = document.getElementById(\"numb\").value;\n\n  // If x is Not a Number or less than one or greater than 10\n  if (isNaN(quantityOfPlayers) || quantityOfPlayers < 1 || quantityOfPlayers > 4) {\n    text = \"Gemstone Digital is best played with 1-4 players. Please enter a valid number of players.\";\n  } else {\n    text = quantityOfPlayers + \" \" + \"players\";\n    console.log(\"number of players:\" + \" \" + quantityOfPlayers);\n    //call gofirst function here\n    goFirst();\n  }\n  document.getElementById(\"demo\").innerHTML = text;\n}\n\n\n// parseInt (playersQty);\n// if (playersQty > 1) {\n// \tgoFirst();\n// }\n// else {\n// \tconsole.log(\"need more players\");\n// }\nfunction goFirst () {\n\tconsole.log(\"p1 d20 roll:\");\n\tlet p1d20 = Math.floor((Math.random() * 20) + 1);\n\tconsole.log(p1d20);\n\tconsole.log(\"p2 d20 roll:\");\n\tlet p2d20 = Math.floor((Math.random() * 20) + 1);\n\tconsole.log(p2d20);\n\tif (p1d20 > p2d20) {\n\t\tconsole.log(\"player 1 goes first\");\n\t}\n\telse {\n\t\tconsole.log(\"player 2 goes first\");\n\t}\n}\n\nfunction playRound () {\n\n\n\t\n}\n\n\n\n",
+			"file": "diceGame.js",
+			"file_size": 1222,
+			"file_write_time": 132059103219579038,
+			"settings":
+			{
+				"buffer_size": 1205,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "diceGameScrappedFunctionalCode.js",
+			"settings":
+			{
+				"buffer_size": 898,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "diceGame.html",
+			"settings":
+			{
+				"buffer_size": 6018,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "styles.css",
+			"settings":
+			{
+				"buffer_size": 4801,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -76,12 +114,13 @@
 	},
 	"file_history":
 	[
+		"/C/Users/erica/Documents/devCodeCamp/week_02/Projects/diceGame/diceGame.html",
+		"/C/Users/erica/Documents/devCodeCamp/week_01/Projects/day1Project/aboutMe.html",
 		"/C/Users/erica/Documents/devCodeCamp/week_01/Misc Examples/javascript review/happyNumbersExample.js",
 		"/C/Users/erica/Documents/devCodeCamp/week_01/Misc Examples/javascript review/happyNumbersExample.html",
 		"/C/Users/erica/Documents/devCodeCamp/week_01/Misc Examples/javascript review/happyNumbersExample.jss",
 		"/C/Users/erica/Documents/devCodeCamp/week_02/Projects/diceGame/styles.css",
 		"/C/Users/erica/Documents/devCodeCamp/week_02/Projects/diceGame/diceGameScrappedFunctionalCode.js",
-		"/C/Users/erica/Documents/devCodeCamp/week_02/Projects/diceGame/diceGame.html",
 		"/C/Users/erica/Documents/devCodeCamp/week_02/Projects/diceGame/diceGame.js",
 		"/C/Users/erica/Documents/devCodeCamp/week_01/Projects/day1Project/styles.css",
 		"/C/Users/erica/Documents/devCodeCamp/week_01/Projects/day1Project/projectTwo.html",
@@ -144,7 +183,7 @@
 	],
 	"find":
 	{
-		"height": 29.0
+		"height": 31.0
 	},
 	"find_in_files":
 	{
@@ -178,14 +217,130 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "diceGame.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1205,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1205,
+								1205
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 770.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "diceGameScrappedFunctionalCode.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 898,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								209,
+								209
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "diceGame.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6018,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4801,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3792,
+								3792
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4732.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -222,7 +377,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 54.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
