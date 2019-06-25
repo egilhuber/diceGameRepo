@@ -69,6 +69,8 @@ function rollDice(){
     	document.getElementById("9-6").innerHTML = d20;
     	finalRollTotal = diceTotal;
     	console.log(finalRollTotal);
+    	tableArr.push(finalRollTotal);
+		console.log(tableArr);
     }
 }
 // function selectDice(whichDice) {
@@ -113,6 +115,8 @@ function rollDice(){
 // 	// document.getElementById(btn).disabled = true;
 // 	if ()
 // }
+let tableArr = [];
+
 function buttonDiceFour(rollValue) {
 	console.log("d4: " + rollValue);
 	if (countClicks == 1) {
@@ -134,6 +138,8 @@ function buttonDiceFour(rollValue) {
 		document.getElementById("7-1").innerHTML = rollValue;
 	}
 	document.getElementById("button4").disabled = true;
+	tableArr.push(rollValue);
+	console.log(tableArr);
 }
 function buttonDiceSix(rollValue) {
 	console.log("d6: " + rollValue);
@@ -156,6 +162,8 @@ function buttonDiceSix(rollValue) {
 		document.getElementById("7-2").innerHTML = rollValue;
 	}
 	document.getElementById("button6").disabled = true;
+	tableArr.push(rollValue);
+	console.log(tableArr);
 }
 function buttonDiceEight(rollValue) {
 	console.log("d8: " + rollValue);
@@ -178,6 +186,8 @@ function buttonDiceEight(rollValue) {
 		document.getElementById("7-3").innerHTML = rollValue;
 	}
 	document.getElementById("button8").disabled = true;
+	tableArr.push(rollValue);
+	console.log(tableArr);
 }
 function buttonDiceTen(rollValue) {
 	console.log("d10: " + rollValue);
@@ -200,6 +210,8 @@ function buttonDiceTen(rollValue) {
 		document.getElementById("7-4").innerHTML = rollValue;
 	}
 	document.getElementById("button10").disabled = true;
+	tableArr.push(rollValue);
+	console.log(tableArr);
 }
 function buttonDiceTwelve(rollValue) {
 	console.log("d12: " + rollValue);
@@ -222,6 +234,8 @@ function buttonDiceTwelve(rollValue) {
 		document.getElementById("7-5").innerHTML = rollValue;
 	}
 	document.getElementById("button12").disabled = true;
+	tableArr.push(rollValue);
+	console.log(tableArr);
 }
 function buttonDiceTwenty(rollValue) {
 	console.log("d20: " + rollValue);
@@ -244,6 +258,32 @@ function buttonDiceTwenty(rollValue) {
 		document.getElementById("7-6").innerHTML = rollValue;
 	}
 	document.getElementById("button20").disabled = true;
+	tableArr.push(rollValue);
+	console.log(tableArr);
+}
+
+function finishGame() {
+	let sumNumber = 0;
+	for (let i = 0; i < tableArr.length; i++) {
+		sumNumber = sumNumber + tableArr[i];
+		}
+	let number = sumNumber + "";
+	console.log(number);
+	document.getElementById("9-7").innerHTML = number;
+	if (number > 10) {
+		console.log("you win :)");
+	}
+	else if (number <= 10) {
+		console.log("you lose :(");
+	}
+	else {
+		console.log("what happened");
+	}
+}
+
+function resetGame() {
+
+
 }
 
 // To set the value of a field with an id value of xyz, you'd use:
