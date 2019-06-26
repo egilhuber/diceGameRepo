@@ -47,7 +47,7 @@
 			"file": "diceGame.js",
 			"settings":
 			{
-				"buffer_size": 7882,
+				"buffer_size": 7307,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -56,16 +56,7 @@
 			"file": "diceGame.html",
 			"settings":
 			{
-				"buffer_size": 7500,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "diceGameScrappedFunctionalCode.js",
-			"settings":
-			{
-				"buffer_size": 898,
+				"buffer_size": 7900,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -112,6 +103,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/erica/Documents/devCodeCamp/week_01/CodeDemo/FunctionsWarmUp/Third Problem Set/copies/happyNumberscopy.js",
 		"/C/Users/erica/Documents/devCodeCamp/week_02/Projects/diceGame/diceGame.html",
 		"/C/Users/erica/Documents/devCodeCamp/week_01/Projects/day1Project/aboutMe.html",
 		"/C/Users/erica/Documents/devCodeCamp/week_01/Misc Examples/javascript review/happyNumbersExample.js",
@@ -181,7 +173,7 @@
 	],
 	"find":
 	{
-		"height": 31.0
+		"height": 29.0
 	},
 	"find_in_files":
 	{
@@ -225,73 +217,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7882,
+						"buffer_size": 7307,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2328,
-								2328
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1848.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "diceGame.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7500,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6031,
-								6031
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2928.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "diceGameScrappedFunctionalCode.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 898,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								236,
-								236
+								7307,
+								7307
 							]
 						],
 						"settings":
@@ -303,11 +237,40 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 1,
+					"file": "diceGame.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7900,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								694,
+								694
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 938.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "styles.css",
 					"semi_transient": false,
 					"settings":
@@ -319,8 +282,8 @@
 						"selection":
 						[
 							[
-								4243,
-								4243
+								2781,
+								2781
 							]
 						],
 						"settings":
@@ -328,10 +291,10 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 5082.0,
+						"translation.y": 3640.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -339,7 +302,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -376,7 +339,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 58.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":

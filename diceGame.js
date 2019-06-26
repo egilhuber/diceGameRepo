@@ -58,7 +58,7 @@ function rollDice(){
     console.log("clicks:" + " " + countClicks);
     if (countClicks == 7) {
     	calcBonuses();
-    	console.log("bonuses under construction");
+    	console.log("bonus");
     }
     else if (countClicks == 8) {
     	document.getElementById("9-1").innerHTML = d4;
@@ -219,7 +219,6 @@ function buttonDiceTwenty(rollValue) {
 	tableArr.push(rollValue);
 	console.log(tableArr);
 }
-
 function finishGame() {
 	let sumNumber = 0;
 	for (let i = 0; i < tableArr.length; i++) {
@@ -229,13 +228,16 @@ function finishGame() {
 	console.log(number);
 	document.getElementById("9-7").innerHTML = number;
 	if (number > 100) {
-		console.log("you win :)");
+		console.log("final score: " + number + " " + "you win :)");
+		alert("You win:)");
 	}
 	else if (number <= 100) {
 		console.log("you lose :(");
+		alert("final score: " + number + " " + "You lose :(");
 	}
 	else {
 		console.log("what happened");
+		alert("there be dragons here");
 	}
 }
 function calcBonuses (pointValue) {

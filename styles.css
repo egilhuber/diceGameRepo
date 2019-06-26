@@ -60,6 +60,7 @@ h1 {
 }
 h2 {
 	text-decoration: overline;
+	font-size: 30px;
 }
 #contForm {
 	position: center;
@@ -272,4 +273,10 @@ div.playerButton{
 }
 .rollButton{
 	padding: 15px;
+}
+.diceRows{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
