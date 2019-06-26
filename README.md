@@ -1,2 +1,2 @@
 # diceGameRepo
-javascript dice game
+OPEN playerQuantitySplashPage.html first 
